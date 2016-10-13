@@ -97,12 +97,10 @@
 		F42305821DAC00EB00A20303 /* TestMusicVideo */ = {
 			isa = PBXGroup;
 			children = (
-				F42305831DAC00EB00A20303 /* AppDelegate.swift */,
-				F42305851DAC00EB00A20303 /* ViewController.swift */,
-				F42305871DAC00EB00A20303 /* Main.storyboard */,
-				F423058A1DAC00EB00A20303 /* Assets.xcassets */,
-				F423058C1DAC00EB00A20303 /* LaunchScreen.storyboard */,
-				F423058F1DAC00EB00A20303 /* Info.plist */,
+				F42305EE1DAFCE7200A20303 /* Supporting Files */,
+				F42305EB1DAFCE4800A20303 /* Model */,
+				F42305ED1DAFCE5D00A20303 /* View */,
+				F42305EC1DAFCE5200A20303 /* Controller */,
 			);
 			path = TestMusicVideo;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				F42305A51DAC00EC00A20303 /* Info.plist */,
 			);
 			path = TestMusicVideoUITests;
+			sourceTree = "<group>";
+		};
+		F42305EB1DAFCE4800A20303 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F42305EC1DAFCE5200A20303 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F42305851DAC00EB00A20303 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F42305ED1DAFCE5D00A20303 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F42305871DAC00EB00A20303 /* Main.storyboard */,
+				F423058C1DAC00EB00A20303 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F42305EE1DAFCE7200A20303 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F423058A1DAC00EB00A20303 /* Assets.xcassets */,
+				F423058F1DAC00EB00A20303 /* Info.plist */,
+				F42305831DAC00EB00A20303 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,6 +516,7 @@
 				F42305AA1DAC00EC00A20303 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F42305AB1DAC00EC00A20303 /* Build configuration list for PBXNativeTarget "TestMusicVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +525,7 @@
 				F42305AD1DAC00EC00A20303 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F42305AE1DAC00EC00A20303 /* Build configuration list for PBXNativeTarget "TestMusicVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +534,7 @@
 				F42305B01DAC00EC00A20303 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
